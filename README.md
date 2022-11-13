@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Idk If yall wanna work on the django section but if yall do 
+
+- Navigate to the folder called backend, then nltk, but not the nltk in that!
+- `pipenv`  or some shit lol
+- you can run it by doing `python manage.py runserver` or something similar to that
+- that lets you check if its working on localhost:8000
+- i just used the tutorial from [https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react], and im at like step 3, so we just have to figure out nltk and write the stuff for it
+- then well just figure out how to implement it in the frontend
+- have 2 peopel work on front end while 2 work on the nltk, but just whenever the nltk people are done focus on integration and then have all 4 work on making it look nice
