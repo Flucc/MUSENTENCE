@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
 .App {
   text-align: center;
   padding-left: 10%;
@@ -10,8 +11,8 @@
 }
 
 .text-box-page {
-  blend-mode: darken;
-  background-color: #FC7C46;
+  margin-top: 3%;
+  background-color: #2C666E ;
   float: left;
   width: 50%;
   height: 50%;
@@ -28,10 +29,13 @@
 }
 
 .logo-image {
+  margin-top: 8%;
   width: 60%;
   height: 60%;
 }
-
+.song-image{
+  box-shadow: 0 0 .5em .5em #002A32;
+}
 .container {
   background-color: greenyellow;
 }
@@ -45,6 +49,7 @@
 }
 
 .song-details-page {
+  margin-top: 3%;
   background-color: #4E4E50;
   float: right;
   width: 50%;
@@ -53,18 +58,19 @@
   padding-bottom: 2%;
   border-top-right-radius: 10%;
   border-bottom-right-radius: 10%;
-  
+  box-shadow: 0 0 1em 1em #002A32;
 }
 
 .submit-button {
   border-color: white;
   cursor: pointer;
-  background-color: #FC7C46;
+  background-color: #2C666E;
   color: white;
   padding: 1% 5%;
   margin: 1% 0%;
   border-radius: 30px;
-  
+  margin-bottom: 9.5%;
+  /* font-family: 'Lexend Zetta', sans-serif; */
 }
 
 .submit-button:hover {
@@ -74,20 +80,31 @@
 }
 
 .text-input-box {
-  border-radius: 30px;
-  width: 50%;
+  border-radius: 50px;
+  width: 75%;
+  height: 50%;
   margin: 5%;
-  font-size: 15px;
+  font-size: 100%;
   text-align: center;
-  background-color: #6BFC46;
+  background-color: #2C666E;
   color: white;
-  
-  
-} 
+  text-transform: uppercase;
+  /* font-family: 'Lexend Zetta', sans-serif; */
+}
 
 .container {
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(59,136,146,1) 57%, rgba(74,170,182,1) 100%);   
+}
+
+.streaming {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-left: 5%;
+  margin-top: 2%;
+
 }
 
 .applemusic-image {
@@ -96,9 +113,10 @@
   margin-right: auto;
   padding-left: 2%;
   padding-right: 2%; */
-  width: 50px;
-  height: 50px;
-  margin-top: 2px;
+  padding-left: 6%;
+  float: center;
+  width: 25%;
+  height: 25%;
   background-color: #4E4E50;
 }
 
@@ -108,10 +126,11 @@
   margin-right: auto;
   padding-left: 2%;
   padding-right: 2%; */
-  width: 50px;
-  height: 50px;
-  margin-top: 2px;
-  background-color: #4E4E50;
+  /* float: left; */
+  
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
 } 
 
 .youtube-image {
@@ -120,10 +139,11 @@
   margin-right: auto;
   padding-left: 2%;
   padding-right: 2%;  */
-  width: 50px;
-  height: 50px;
-  margin-top: 2px;
-  background-color: #4E4E50;
+  /* float: right; */
+  padding-right: 10%;
+  width: 60%;
+  height: 60%;
+  background-color: transparent;
 }
 
 .album-image {
@@ -140,47 +160,43 @@
 }
 
 .spotify-button {
-  float: left;
   cursor: pointer;
-  margin-left: 5%;
-  background-color: #4E4E50;
+  background-color: transparent;
   border: none;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/Spotify-icon.png") ;
-}
 
-.spotify-button:hover {
-  color: #185b18;
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-wlnns&psig=AOvVaw0VRGs2W-3oNgKuMH0lPdNd&ust=1668377928920000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIjc36HWqfsCFQAAAAAdAAAAABAd");
-  transition: 1sec;
 }
 
 .youtube-button {
-  float: right;
   cursor: pointer;
-  margin-right: 5%;
-  background-color: #4E4E50;
+  background-color: transparent;
   border: none;
 }
 
 .applemusic-button {
-  float: center;
   cursor: pointer;
-  background-color: #4E4E50;
+  background-color: transparent;
   border: none;
 }
 
 .artistlabel {
   color: white;
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 85%;
+  margin-bottom: 6%;
 }
 
 .songlabel {
   color: white;
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 85%;
 }
 
 .songtitle {
-  font-size: 20px;
+  font-size: 100%;
+  text-transform: uppercase;
 }
 
 .artistTitle {
-  font-size: 20px;
+  font-size: 100%;
+  text-transform: uppercase;
 }
