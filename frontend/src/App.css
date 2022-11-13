@@ -1,38 +1,186 @@
 .App {
   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.help-text {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.text-box-page {
+  blend-mode: darken;
+  background-color: #FC7C46;
+  float: left;
+  width: 50%;
+  height: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  box-shadow: 0 0 1em 1em #002A32;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.song-detail {
+  float: right;
+}
+
+.logo-image {
+  width: 60%;
+  height: 60%;
+}
+
+.container {
+  background-color: greenyellow;
+}
+
+.current-page {
+  background-color: yellow;
+}
+
+.description {
+  color: white;
+}
+
+.song-details-page {
+  background-color: #4E4E50;
+  float: right;
+  width: 50%;
+  height: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  
+}
+
+.submit-button {
+  border-color: white;
+  cursor: pointer;
+  background-color: #FC7C46;
+  color: white;
+  padding: 1% 5%;
+  margin: 1% 0%;
+  border-radius: 30px;
+  
+}
+
+.submit-button:hover {
+  border-color: white;
+  background-color: #002A32;
+  color: white;
+}
+
+.text-input-box {
+  border-radius: 30px;
+  width: 50%;
+  margin: 5%;
+  font-size: 15px;
+  text-align: center;
+  background-color: #6BFC46;
+  color: white;
+  
+  
+} 
+
+.container {
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(59,136,146,1) 57%, rgba(74,170,182,1) 100%);   
+}
+
+.applemusic-image {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  padding-right: 2%; */
+  width: 50px;
+  height: 50px;
+  margin-top: 2px;
+  background-color: #4E4E50;
+}
+
+.spotify-image {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  padding-right: 2%; */
+  width: 50px;
+  height: 50px;
+  margin-top: 2px;
+  background-color: #4E4E50;
+} 
+
+.youtube-image {
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  padding-right: 2%;  */
+  width: 50px;
+  height: 50px;
+  margin-top: 2px;
+  background-color: #4E4E50;
+}
+
+.album-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.song-image {
+  width: 69.5%;
+  height: 69.5%;
+}
+
+.spotify-button {
+  float: left;
+  cursor: pointer;
+  margin-left: 5%;
+  background-color: #4E4E50;
+  border: none;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a7/Spotify-icon.png") ;
+}
+
+.spotify-button:hover {
+  color: #185b18;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngegg.com%2Fen%2Fpng-wlnns&psig=AOvVaw0VRGs2W-3oNgKuMH0lPdNd&ust=1668377928920000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIjc36HWqfsCFQAAAAAdAAAAABAd");
+  transition: 1sec;
+}
+
+.youtube-button {
+  float: right;
+  cursor: pointer;
+  margin-right: 5%;
+  background-color: #4E4E50;
+  border: none;
+}
+
+.applemusic-button {
+  float: center;
+  cursor: pointer;
+  background-color: #4E4E50;
+  border: none;
+}
+
+.artistlabel {
+  color: white;
+}
+
+.songlabel {
+  color: white;
+}
+
+.songtitle {
+  font-size: 20px;
+}
+
+.artistTitle {
+  font-size: 20px;
 }
